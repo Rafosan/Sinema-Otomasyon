@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SinemaOtomasyon.Pages.HomePage"
+             Title="Giriş Sayfası">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Image Source="dotnet_bot.png" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+        <Button x:Name="btnFilmler" Text="Filmler" Clicked="btnFilmler_Clicked" />
+        <Button x:Name="btnSatislar" Text="Satışlar" Clicked="btnSatislar_Clicked" />
+        <Button x:Name="btnSalonlar" Text="Salonlar" Clicked="btnSalonlar_Clicked" />
+        <Button x:Name="btnSinemalar" Text="Sinemalar" Clicked="btnSinemalar_Clicked" />
+    </StackLayout>
+</ContentPage>

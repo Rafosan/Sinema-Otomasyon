@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SinemaOtomasyon.Pages.FilmPage"
+             Title="FilmPage">
+    <ScrollView>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Button x:Name="btnFilmAdd" Text="Film Ekle" Clicked="btnFilmAdd_Clicked" />
+            <Button x:Name="btnFilmList" Text="Film Listele" Clicked="btnFilmList_Clicked" />
+            <Button x:Name="btnFilmDelete" Text="Film Sil" Clicked="btnFilmDelete_Clicked" />
+            <Button x:Name="btnFilmUpdate" Text="Film Güncelle" Clicked="btnFilmUpdate_Clicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

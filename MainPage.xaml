@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SinemaOtomasyon.MainPage">
+    <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+        <Label Text="Kullanıcı Adı" FontSize="Medium" />
+        <Entry x:Name="UsernameEntry" Placeholder="Kullanıcı adınızı girin" />
+
+        <Label Text="Şifre" FontSize="Medium" />
+        <Entry x:Name="PasswordEntry" Placeholder="Şifrenizi girin" IsPassword="True" />
+
+        <Button x:Name="btnLogin" Text="Giriş Yap" Clicked="btnLogin_Clicked"  />
+
+    </VerticalStackLayout>
+</ContentPage>
